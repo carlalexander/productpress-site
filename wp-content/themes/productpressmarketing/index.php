@@ -19,7 +19,7 @@
 <meta name="description" content="Turn WordPress into a membership site using Gumroad">
 
 <!-- Shorcut icon -->
-<link rel="shortcut icon" href="/images/favicon.png">
+<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/favicon.png">
 
 <!-- Apple Touch Icon  -->
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-precomposed.png">
@@ -30,9 +30,9 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="/style/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="/style/animate.css" />
-<link rel="stylesheet" type="text/css" href="/style/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/animate.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/style.css" />
 
 <!-- Additional color variations ( uncomment to acitvate ) -->
 <!-- YOUR CUSTOM STYLES: <link rel="stylesheet" type="text/css" href="style/customize.css" /> -->
@@ -88,18 +88,18 @@
 
           <!-- Header -->
           <div id="header">
-     
+
                <!-- Logo Image
                <div id="logo">
                     <img src="images/logo.png" width="98" height="28" alt="" />
                </div>
                -->
-               
+
                <!-- Logo text -->
                <div id="logo-text">
                     <a href="#home" class="scroll">ProductPress</a>
                </div>
-               
+
                <!-- Menu button -->
                <div class="menu-button" id="open-overlay">
                   <span class="menu-label">MENU</span>
@@ -113,14 +113,14 @@
           <div class="clear"></div>
           </div>
           <!-- End: Header -->
-          
+
           <!-- Intro -->
           <div id="intro">
                <h1>
                Combine WordPress + Gumroad to create a supercharged membership site.
                </h1>
           </div>
-          
+
           <!-- Call to action buttons -->
           <div id="call-to-action">
                <div class="helper">
@@ -147,10 +147,10 @@
 
           <!-- Feature content -->
           <div class="feature_content">
-          
+
                 <!-- Details -->
                 <div class="feature-details wow slideInLeft">
-                
+
                      <h2>Connect Gumroad to your WordPress site</h2>
                      <div class="title-separator"></div>
                           <div class="feature-text">
@@ -158,12 +158,12 @@
                           Installation is done in three steps. First install the plugin. Next, create an "application" on Gumroad. And finally, connect the two using the ProductPress plugin.
                           </p>
                      </div>
-      
+
                 </div>
-                
+
                 <!-- Image -->
                 <div class="feature-image wow fadeInUp">
-                     <img src="images/feature1.png" alt="" />
+                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/feature1.png" alt="" />
                 </div>
 
           <div class="clear"></div>
@@ -172,16 +172,16 @@
 
      </div>
      <!-- End: Feature 1 -->
-     
+
      <!-- Feature 2 -->
      <div class="feature even">
-     
+
           <!-- Feature content -->
           <div class="feature_content">
-          
+
                 <!-- Details -->
                 <div class="feature-details wow slideInRight">
-                
+
                      <h2>Create your content in WordPress</h2>
                      <div class="title-separator"></div>
                           <div class="feature-text">
@@ -190,12 +190,12 @@
                           <p>Write pages and posts (featuring text, video, images, and sound) and then link them to whichever Gumroad products you'd like.</p>
                           <p>Only your Gumroad customers will have access to that content!</p>
                      </div>
-      
+
                 </div>
-                
+
                 <!-- Image -->
                 <div class="feature-image wow fadeInUp">
-                     <img src="images/feature2.png" alt="" />
+                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/feature2.png" alt="" />
                 </div>
 
           <div class="clear"></div>
@@ -205,34 +205,34 @@
      <div class="clear"></div>
      </div>
      <!-- End: Feature 2 -->
-     
+
      <!-- Feature 3 -->
      <div class="feature full">
-     
+
           <!-- Feature content -->
           <div class="feature_content">
-          
+
                 <!-- Details -->
                 <div class="feature-details wow fadeIn">
-                
+
                      <h2>Sell your online content using Gumroad</h2>
                      <div class="title-separator"></div>
                           <div class="feature-text">
                           <p>
                           Now you can sell the online course, membership site, or private blog you're hosting on WordPress with Gumroad! When your customers buy on Gumroad, they'll automatically be added to your WordPress site as a user (they'll receive their login info via email).</p>
                      </div>
-      
+
                 </div>
-                
+
                 <!-- Image -->
                 <div class="feature-image wow fadeInUp" data-wow-delay="1s">
-                     <img src="images/feature3.png" alt="" />
+                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/feature3.png" alt="" />
                 </div>
 
           <div class="clear"></div>
           </div>
           <!-- End: Feature content -->
-     
+
      <div class="clear"></div>
      </div>
      <!-- End: Feature 3 -->
@@ -250,14 +250,14 @@
           <h2>VIDEO TOUR</h2>
           <div class="title_border"></div>
      </div>
-     
+
      <!-- Section Intro -->
      <div class="section_intro">
           <p>
           Love selling on Gumroad? Want to create your own WordPress membership site? See how you can do it!
           </p>
      </div>
-     
+
      <!-- Video -->
      <div id="video-container">
           <div class="responsive-video">
@@ -278,7 +278,7 @@
           <h2>THE STORY</h2>
           <div class="title_border"></div>
      </div>
-     
+
      <!-- Section Intro -->
      <div class="section_intro">
        <p>The inspiration for this project came in August, after I launched <a href="http://justinjackson.ca/audiencecourse/?utm_source=podcast">my course</a>. The course platform I was using was expensive. I was being charged $130 / month + 4% of course sales + transaction fees! Since August I've had to pay $1,288.00 to that service. If I'd used Productify, I would have paid only $39.</p>
@@ -286,7 +286,7 @@
        <p>When I shared the idea with <a href="http://carlalexander.ca/?utm_source=justinjackson">Carl Alexander</a> he had an idea of how he could build it (without using a SaaS backend). So we did!</p>
        <p>&nbsp;</p>
        <p>Cheers, Justin Jackson</p>
-      
+
      </div>
 
 </div>
@@ -297,11 +297,11 @@
      <div class="border-top"></div>
 
      <!-- Parallax Image -->
-     <div class="parallax" data-background="images/subscribe-bg.jpg"></div>
+     <div class="parallax" data-background="<?php echo esc_url( get_template_directory_uri() ); ?>/images/subscribe-bg.jpg"></div>
 
      <!-- Subscribe form -->
      <div id="subscribe-form" class="wow fadeIn">
-          
+
           <!-- Mailchimp form -->
           <div id="magna-mailchimp">
                <!-- Begin MailChimp Signup Form -->
@@ -351,7 +351,7 @@
      <div class="border-top"></div>
 
      <div class="quote-elements">
-     
+
           <!-- Sign -->
           <div class="quote-sign wow fadeIn">
                <span>,,</span>
@@ -388,7 +388,7 @@
           <h2>PRICING</h2>
           <div class="title_border"></div>
      </div>
-     
+
      <!-- Section Intro ( Uncomment to show )
      <div class="section_intro">
           <p>
@@ -408,12 +408,12 @@
                          <li class="plan-title">PERSONAL</li>
                          <li class="plan-price">
                              <span class="price">$39</span><span class="period"></span>
-                            
+
                    </li>
                          <li class="plan-row"><strong>1 SITE LICENSE</strong></li>
                          <li class="plan-row">CORE FEATURES</li>
                          <li class="plan-row">1 YEAR OF SUPPORT + FREE UPDATES</li>
-                         
+
                          <li class="signup-button"><a href="https://gum.co/productpress?wanted=true">GET IT NOW</a></li>
                      </ul>
 </div>
@@ -428,7 +428,7 @@
                          <li class="plan-row"><strong>3 SITE LICENSES</strong></li>
                          <li class="plan-row">CORE FEATURES</li>
                          <li class="plan-row">1 YEAR OF SUPPORT  + FREE UPDATES</li>
-                         
+
                          <li class="signup-button"><a href="https://gum.co/productpress?wanted=true">GET IT NOW</a></li>
                      </ul>
 </div>
@@ -439,12 +439,12 @@
                          <li class="plan-title">DEVELOPER</li>
                          <li class="plan-price">
                              <span class="price">$199</span><span class="period"></span>
-                             
+
                    </li>
                          <li class="plan-row"><strong>UNLIMITED SITE LICENSES</strong></li>
                          <li class="plan-row">CORE FEATURES</li>
                          <li class="plan-row">1 YEAR OF SUPPORT + FREE UPDATES</li>
-                         
+
                          <li class="signup-button"><a href="https://gum.co/productpress?wanted=true">GET IT NOW</a></li>
                      </ul>
                 </div>
@@ -466,7 +466,7 @@
           Not quite ready? Take our email course on building profitable courses:
           </p>
      </div>
-     
+
      <!-- Download buttons -->
      <div id="download-buttons">
           <div class="helper">
@@ -474,7 +474,7 @@
                    <li class="wow fadeInLeft">
                        <a href="" class="call-to-button">Coming Soon</a>
                    </li>
-                   
+
                </ul>
           </div>
      </div>
@@ -491,14 +491,14 @@
           <h2>SEND US A MESSAGE</h2>
           <div class="title_border"></div>
      </div>
-     
-     
+
+
      <div class="section_intro">
           <p>
-          You can email Carl and Justin here: productpresswp@gmail.com 
+          You can email Carl and Justin here: productpresswp@gmail.com
           </p>
      </div>
-    
+
 
 
 </div>
