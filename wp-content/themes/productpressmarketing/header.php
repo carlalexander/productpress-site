@@ -19,7 +19,7 @@
 <meta name="description" content="Turn WordPress into a membership site using Gumroad">
 
 <!-- Shorcut icon -->
-<link rel="shortcut icon" href="/images/favicon.png">
+<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/favicon.png">
 
 <!-- Apple Touch Icon  -->
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-precomposed.png">
@@ -30,9 +30,9 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="/style/font-awesome.css" />
-<link rel="stylesheet" type="text/css" href="/style/animate.css" />
-<link rel="stylesheet" type="text/css" href="/style/style.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/font-awesome.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/animate.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/style/style.css" />
 
 <!-- Additional color variations ( uncomment to acitvate ) -->
 <!-- YOUR CUSTOM STYLES: <link rel="stylesheet" type="text/css" href="style/customize.css" /> -->
@@ -68,19 +68,19 @@
 
           <!-- Header -->
           <div id="header">
-     
+
                <!-- Logo Image
                <div id="logo">
                     <img src="images/logo.png" width="98" height="28" alt="" />
                </div>
                -->
-               
+
                <!-- Logo text -->
                <div id="logo-text">
                     <a href="http://productpress.me" class="scroll">ProductPress</a>
                </div>
-               
-               <!-- 
+
+               <!--
                <div class="menu-button" id="open-overlay">
                   <span class="menu-label">MENU</span>
                   <div class="menu-lines">
@@ -93,7 +93,7 @@
           <div class="clear"></div>
           </div>
           <!-- End: Header -->
-          
+
      </div>
      <!-- End: Content -->
 
