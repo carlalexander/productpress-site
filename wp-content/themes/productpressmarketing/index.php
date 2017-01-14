@@ -18,12 +18,6 @@
 <!-- Define a description of your web page -->
 <meta name="description" content="Turn WordPress into a membership site using Gumroad">
 
-<!-- Shorcut icon -->
-<link rel="shortcut icon" href="<?php echo esc_url( get_template_directory_uri() ); ?>/images/favicon.png">
-
-<!-- Apple Touch Icon  -->
-<link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-precomposed.png">
-
 <!-- Call Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
