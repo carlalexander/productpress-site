@@ -37,7 +37,7 @@ set('tmp_path', '/tmp/deployer');
  */
 
 // WordPress project repository
-set('repository', 'git@github.com:carlalexander/debops-wordpress-template.git');
+set('repository', 'git@github.com:carlalexander/productpress-site.git');
 
 // WordPress shared files
 set('shared_files', ['wp-config.php']);
