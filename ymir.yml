@@ -1,0 +1,18 @@
+id: 21
+name: productpress
+type: wordpress
+environments:
+  production:
+    database:
+      server: ymir
+      name: productpress_production
+    domain: productpress.me
+    php: 7.2
+  staging:
+    cdn:
+      caching: assets
+    cron: false
+    warmup: false
+    database:
+      server: ymir
+      name: productpress_staging
